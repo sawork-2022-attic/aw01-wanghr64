@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Mar 03 14:45:54 CST 2022
+depgraph-maven-plugin-3.3.1.jar>aliyunmaven=
+depgraph-maven-plugin-3.3.1.pom>aliyunmaven=
