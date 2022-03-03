@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="asciiFont" class="asciiPanel.AsciiFont">
+        <property name="filename" value="cp437_16x16.png" />
+        <property name="width" value="16" />
+        <property name="height" value="16" />
+    </bean>
+
+    <bean id="asciiPanel" class="asciiPanel.AsciiPanel">
+        <property name="asciiFont" ref="asciiFont" />
+    </bean>
+</beans>

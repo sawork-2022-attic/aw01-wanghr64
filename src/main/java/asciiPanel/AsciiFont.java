@@ -18,7 +18,7 @@ public class AsciiFont {
 	public static final AsciiFont TAFFER_10x10 = new AsciiFont("taffer_10x10.png", 10, 10);
 	public static final AsciiFont QBICFEET_10x10 = new AsciiFont("qbicfeet_10x10.png", 10, 10);
 	public static final AsciiFont TALRYTH_15_15 = new AsciiFont("talryth_square_15x15.png", 15, 15);
-	
+
 	private String fontFilename;
 
 	public String getFontFilename() {
@@ -40,6 +40,22 @@ public class AsciiFont {
 	public AsciiFont(String filename, int width, int height) {
 		this.fontFilename = filename;
 		this.width = width;
+		this.height = height;
+	}
+
+	public AsciiFont() {
+		
+	}
+
+	public void setFilename(String filename) {
+		this.fontFilename = filename;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public void setHeight(int height) {
 		this.height = height;
 	}
 }
